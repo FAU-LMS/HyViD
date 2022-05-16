@@ -8,7 +8,6 @@ Our novel synthetic hyperspectral video database (HyViD) provides seven scenes r
 The videos have a length of 30 frames.
 Furthermore, the scenes are rendered using a camera array using nine cameras arranged in a three times three grid.
 The camera array is arranged as follows:
-
 ```
 [View from front onto the sensor]
 0 - 1 - 2
@@ -20,7 +19,10 @@ The camera array is arranged as follows:
 
 Thus, camera 4 is the center camera.
 
-The folder structure is: camera -> channel -> frame
+The folder structure is:
+```
+camera -> channel -> frame
+```
 
 For more details please refer to the paper "A Synthetic Hyperspectral Array Video Database with Applications to Cross-Spectral Reconstruction and Hyperspectral Video Coding".
 
