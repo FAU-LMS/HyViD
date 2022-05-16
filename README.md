@@ -4,6 +4,8 @@
 
 The actual data can be found here: https://drive.google.com/drive/folders/1LS1khF_uHITdLRBisOvX_CN9De3dKOtj?usp=sharing
 
+The watermarks will be removed in the final version of this database.
+
 Our novel synthetic hyperspectral video database (HyViD) provides seven scenes rendered from 400 nm to 700 nm in 30 nm steps, resulting in 31 hyperspectral channels. 
 The videos have a length of 30 frames.
 Furthermore, the scenes are rendered using a camera array using nine cameras arranged in a three times three grid.
