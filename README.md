@@ -1,6 +1,6 @@
 # HyViD (Synthetic Hyperspectral Array Video Database)
 
-[CURRENTLY FOR REVIEWERS ONLY]
+[CURRENTLY FOR REVIEWERS ONLY!!!]
 
 The actual data can be found here: https://drive.google.com/drive/folders/1JWPaA_w0LW-v4JmYigPaMVVSA0pi6IDZ?usp=sharing
 
