@@ -7,7 +7,7 @@ Since some of the source files are too big, the source can be found here: https:
 ## Database
 The actual data can be found here: https://drive.google.com/drive/folders/1JWPaA_w0LW-v4JmYigPaMVVSA0pi6IDZ?usp=sharing
 
-Our novel synthetic <ins>Hy</ins>perspectral <ins>Vi</ins>deo <ins>D</ins>atabase (HyViD) provides seven scenes rendered from 400 nm to 700 nm in 30 nm steps, resulting in 31 hyperspectral channels. 
+Our novel synthetic <ins>Hy</ins>perspectral <ins>Vi</ins>deo <ins>D</ins>atabase (HyViD) provides seven scenes rendered from 400 nm to 700 nm in 10 nm steps, resulting in 31 hyperspectral channels. 
 The videos have a length of 30 frames.
 Furthermore, the scenes are rendered using a camera array using nine cameras arranged in a three times three grid.
 The camera array is arranged as follows:
