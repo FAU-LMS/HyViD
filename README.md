@@ -1,10 +1,11 @@
 # HyViD (Synthetic Hyperspectral Array Video Database)
 
-[CURRENTLY FOR REVIEWERS ONLY!!!]
+## Source
 
+Since some of the source files are too big, the source can be found here: https://gitlab.lms.tf.fau.de/frank.sippel/hyvid
+
+## Database
 The actual data can be found here: https://drive.google.com/drive/folders/1JWPaA_w0LW-v4JmYigPaMVVSA0pi6IDZ?usp=sharing
-
-The watermarks will be removed in the final version of this database.
 
 Our novel synthetic <ins>Hy</ins>perspectral <ins>Vi</ins>deo <ins>D</ins>atabase (HyViD) provides seven scenes rendered from 400 nm to 700 nm in 30 nm steps, resulting in 31 hyperspectral channels. 
 The videos have a length of 30 frames.
@@ -26,6 +27,57 @@ The folder structure is:
 camera -> channel -> frame
 ```
 
-For more details please refer to the paper "A Synthetic Hyperspectral Array Video Database with Applications to Cross-Spectral Reconstruction and Hyperspectral Video Coding".
+## Framework Usage
+If you execute main.py using Python3 everything should work as long as Blender is installed and executable in command line by *blender*.
+You can also execute "run.py" within Blender if you want to model a new scene and execute it.
+If you add textures to objects, the name of an "Image Texture" must be the same as the name of the folder.
+If you want to move the camera, please move the "cam_center". This camera is used to calculate the positions of the other cameras.
+Currently, if you name a light source "sun", then the spectrum of the sun is applied.
+Otherwise, if the name of a light source ends with 'K', then the number in front of it determines the light spectrum according to the black body radiation, e.g., a light source with name *3200K* will lead to a light spectrum of a black body at 3200K temperature.
 
-If you are interested in the source files, e.g., because you want to render the scenes using a different camera array, please write to frank.sippel[at]fau.de.
+## License
+The database and source are licensed using CC-BY-SA.
+If you use the dataset or source for your research. you should cite the follwing paper (tba):
+```
+@article{Sippel:23,
+	author = {Frank Sippel and J\"{u}rgen Seiler and Andr\'{e} Kaup},
+	journal = {J. Opt. Soc. Am. A},
+	number = {tba},
+	pages = {tba},
+	publisher = {Optica Publishing Group},
+	title = {A Synthetic Hyperspectral Array Video Database with Applications to Cross-Spectral Reconstruction and Hyperspectral Video Coding},
+	volume = {tba},
+	month = {tba},
+	year = {2023},
+}
+```
+
+## Original 3D models
+
+Family House:
+House: https://www.blendswap.com/blend/23878
+Trees & Bush: https://www.blendswap.com/blend/14644
+Car: https://blendswap.com/blend/13575
+
+Medieval Seaport:
+Scene: https://blendswap.com/blend/6115
+
+City:
+Scene: https://www.blendswap.com/blend/25505
+Car: https://www.blendswap.com/blend/16710
+
+Outdoor:
+Scene: https://www.blendswap.com/blend/5957
+
+Indoor:
+Scene: https://www.blendswap.com/blend/6468
+
+Lab:
+Small man: https://blendswap.com/blend/14431
+Cups: https://blendswap.com/blend/4499
+Figure: https://blendswap.com/blend/4499
+Cardboard: https://blendswap.com/blend/19402
+Porsche: https://blendswap.com/blend/11182
+White lily: https://blendswap.com/blend/12953
+Monstera: https://blendswap.com/blend/27517
+Table: https://www.blendswap.com/blend/17037
