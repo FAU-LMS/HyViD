@@ -42,12 +42,12 @@ If you use the dataset or source for your research. you should cite the follwing
 @article{Sippel:23,
 	author = {Frank Sippel and J\"{u}rgen Seiler and Andr\'{e} Kaup},
 	journal = {J. Opt. Soc. Am. A},
-	number = {tba},
-	pages = {tba},
+	number = {3},
+	pages = {479--491},
 	publisher = {Optica Publishing Group},
-	title = {A Synthetic Hyperspectral Array Video Database with Applications to Cross-Spectral Reconstruction and Hyperspectral Video Coding},
-	volume = {tba},
-	month = {tba},
+	title = {Synthetic Hyperspectral Array Video Database with Applications to Cross-Spectral Reconstruction and Hyperspectral Video Coding},
+	volume = {40},
+	month = {Mar},
 	year = {2023},
 }
 ```
