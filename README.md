@@ -37,7 +37,7 @@ Otherwise, if the name of a light source ends with 'K', then the number in front
 
 ## License
 The database and source are licensed using CC-BY-SA.
-If you use the dataset or source for your research. you should cite the follwing paper (tba):
+If you use the dataset or source for your research, you should cite the follwing paper:
 ```
 @article{Sippel:23,
 	author = {Frank Sippel and J\"{u}rgen Seiler and Andr\'{e} Kaup},
