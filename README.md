@@ -5,7 +5,7 @@
 Since some of the source files are too big, the source can be found here: https://gitlab.lms.tf.fau.de/frank.sippel/hyvid
 
 ## Database
-The actual data can be found here: https://drive.google.com/drive/folders/1JWPaA_w0LW-v4JmYigPaMVVSA0pi6IDZ?usp=sharing
+The actual data can be found here: https://data.fau.de/public/76/27/336172776/
 
 Our novel synthetic <ins>Hy</ins>perspectral <ins>Vi</ins>deo <ins>D</ins>atabase (HyViD) provides seven scenes rendered from 400 nm to 700 nm in 10 nm steps, resulting in 31 hyperspectral channels. 
 The videos have a length of 30 frames.
